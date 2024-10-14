@@ -1,0 +1,107 @@
+body{
+background-color: #F9F9FC;
+color: (70, 70, 70);
+font-family: helvetica;
+font-weight: lighter;
+}
+h1,h2,h3{
+ font-weight: <weight>;
+ font-style: normal;
+ color: #577F7D; 
+}
+h1{
+	color: rgb(70,70,70);
+	font-size:32px;
+	font-weight: 700;
+}
+h2{
+	color: rgb(50,50,50);
+	font-size:32px;
+	font-weight: 400;
+	font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+a {
+	font-family: "Edu AU VIC WA NT Dots", cursive;
+    text-decoration : none;
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+    font-size: 16px;
+}
+a: hover {
+	color: black;
+}
+
+
+
+/* Custom Design with class */
+
+.container{
+	width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 30px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin-top: 40px;
+}
+.btn-blue:hover {
+	background-color: black;
+    color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-line i:hover { 
+	color: rgb(30, 30, 30);
+}
+#intro p{
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
